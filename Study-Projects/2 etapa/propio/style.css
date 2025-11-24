@@ -1,0 +1,95 @@
+body{
+    background-color: #a80000;
+     font-family: sans-serif;
+    
+}
+
+header{
+    text-align: center;
+    background-color: rgb(97, 0, 0);
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+h1{
+    font-size: 36px;
+    padding: 15x;
+    color: black;
+    background-color: rgba(116, 116, 116, 0.199);
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 24px;
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+h3{
+    font-size: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 20px;
+    font-weight: 500;
+    line-height: 2.7;
+    letter-spacing: 0.8px;
+}
+th{
+    border: 3px solid rgb(34, 34, 34);
+    background-color: rgb(143, 21, 21);
+    filter: saturate(40%);
+}
+
+table{
+    text-align: center;
+    margin: 20px auto;
+    background-color: rgb(90, 0, 0);
+    border-radius: 1pc;
+    filter: saturate(50%);
+}
+
+td{
+    border: 3.5px solid black;
+    border-radius: 1pc;
+    width: 300px;
+    background-color: rgb(121, 0, 0);
+    filter: saturate(37%);
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    position: static;
+    margin: 0 auto;
+    width: 100%;
+    bottom: 5px;
+    background-color: rgb(199, 0, 0);
+    z-index: 5;
+}
+
+footer{
+    display: inline-block;
+    border-radius: 1pc;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+
+footer h3{
+    display: inline-block;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.726);
+    color: #000000;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 800px;
+}
+
+.left{
+    width: 150px;
+}
+
